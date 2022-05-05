@@ -1,6 +1,7 @@
 import os
 insert = "Insert your answer [IN NUMBERS!] : "
 died = "\n~~~~~~~~~~~~~ \n~~YOU DIED!~~ \n~~~~~~~~~~~~~\n"
+left = "\n~~~~~~~~~~~~~~~~~~~~~~~~~~ \n~~You've been abandoned!~~ \n~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
 
 print("00000000000000000000000000000000000000000000000")
 print("0000000000000000 Dad Simulator 0000000000000000")
@@ -74,7 +75,6 @@ if answer1 == '1':
         print(died)
         os.system('pause')
         exit()
-
 elif answer1 == '2':
     print("\nWhy so?")
     print("1. A girl I like rejected me..")
@@ -119,7 +119,63 @@ elif answer1 == '2':
             os.system('pause')
             exit()
 elif answer1 == '3':
-    print('shutup')
-
+    print('\nWhat do you mean "boring" how can school be "boring" FGS?!?')
+    print("1. A girl rejected me..")
+    print("2. I had four hours of MR. Johnson's class. JEEZ it was BORING!!!!")
+    print("3. Idk, just played on my phone and skipped class, nothing too interesting")
+    if3 = input(insert)
+    if if3 == "1":
+        age3 = input("YOU ARE TALKING TO GIRLS AT THE AGE OF 10(?) 16(?), WAIT How even old are you young man? ")
+        print("ok, let me understand. You're talking to girls at the age of "+ age3 + "????????? you're a disgrace son! you're NOT MY SON ANYMORE!")
+        print(died)
+        os.system('pause')
+        exit()
+    if if3 == "2":
+        print("\nWhat class is \"MR. Johnson's\"??")
+        print("1. Math")
+        print("2. Sex ED")
+        print("3. Let me tell you something dad, I. HAVE. NO. IDEA. I am only looking at the girls' all the cuties are in MR. Johnson's class NGL LOL LMFO GG CLAPPED (or whatever youngsters say nowadays")
+        if31 = input(insert)
+        if if31 == "1":
+            print("MATH?!? Boring? How on earth are you going to have a PHD at the age of 20 with that attitude?")
+            print("\n1. When did I say that I wanted to be a professor at the age of 20?!? \n2. That's ok dad I'm starting to learn to code in Roblox I'll be the next bill gates in no time. \n3. Daddy Chill UwU")
+            if311 = input(insert)
+            if if311 == "1":
+                print("Well you clearly said that when you were 2, I have it on tape. How about you stop playing that Ybox of yours and go get some illegal loans for collage?")
+                print(died)
+                os.system('pause')
+                exit()
+            if if311 == "2":
+                print("What the heck is roblox? It isn't orthodox isn't it? Show me that roblox thingi")
+                print("\n1. Show dad your roblox (last game you played was Roblox unchristian intercourse simulator) ")
+                print("2. Smash your Ybox and run away")
+                if3111 = input(insert)
+                if if3111 == "1":
+                    print("What The jesus hell christ jeez holy shit is that sin?? I don't think god will forgive you or me on that one *Went to buy milk a day later and never returned*")
+                    print(left)
+                    os.system('pause')
+                    exit()
+                if if3111 == "2":
+                    print("\n Dad: Wha de fuk. COME BACK HERE YOU SCUM!")
+                    print(died)
+                    os.system('pause')
+                    exit()
+            if if311 == "3":
+                print("\n *SLAPS YOU WITH A BELT*")
+                print(died)
+                os.system('pause')
+                exit()
+        if if31 == "2":
+            print("\nWHAT? I AM PAYING FOR THIS SHIT?")
+        print("~"*100 + "\n Well, you didn't die but dad moved you to the orthodox school, What's the point of living without the cutie from Mr. Johnson's class..\n"+ "~"*100)
+        print(died)
+        os.system('pause')
+    if if3 == "3":
+        print("\nYou're playing on your phone in class? *SLAPS YOU WITH A BELT*")
+        print(died)
+        os.system('pause')
+        exit()        
 #ignore me I exist for making the thing below me work
+#elif answer1 == "4":
+
 os.system('pause')
